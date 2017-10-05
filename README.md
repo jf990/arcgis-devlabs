@@ -40,18 +40,18 @@ What do your need to author DevLabs?
 
 ## Additional information
 
-  + ArcGIS DevLabs: https://developers.arcgis.com/labs/
-  + ArcGIS DevLabs Style Guide: https://github.com/ArcGIS/arcgis-for-developers/wiki/ArcGIS-DevLabs-Styleguide
-  + ArcGIS for Developers website workflow: https://github.com/ArcGIS/arcgis-for-developers/wiki/Editing-the-Site-Locally
-  + Open issues for DevLabs work: https://github.com/ArcGIS/arcgis-for-developers/issues?q=is%3Aopen+is%3Aissue+label%3ADevLabs
+  + [ArcGIS DevLabs](https://developers.arcgis.com/labs/)
+  + [ArcGIS DevLabs Style Guide](https://github.com/ArcGIS/arcgis-for-developers/wiki/ArcGIS-DevLabs-Styleguide)
+  + [ArcGIS for Developers website workflow](https://github.com/ArcGIS/arcgis-for-developers/wiki/Editing-the-Site-Locally)
+  + [Open issues for DevLabs work](https://github.com/ArcGIS/arcgis-for-developers/issues?q=is%3Aopen+is%3Aissue+label%3ADevLabs)
 
 ## Notes For Authors (See [Slides](docs/slides-devlabs/index.html))
 
-1. Get access to the ArcGIS-for-Developers website https://github.com/ArcGIS/arcgis-for-developers
+1. Get access to the [ArcGIS-for-Developers website](https://github.com/ArcGIS/arcgis-for-developers)
    + Sign up for a free account on GitHub or skip this if you already have an existing account. Do not use esri in your username.
    + Add your full name and "Esri" as your company to your profile.
    + Email github_admin@esri.com with your GitHub username and ask to be added to the "ArcGIS" and "Esri" organizations.
-   + You should now be able to access https://github.com/ArcGIS/arcgis-for-developers and create and manage issues, create branches, comment on existing content, and update the wiki.
+   + You should now be able to access [https://github.com/ArcGIS/arcgis-for-developers](https://github.com/ArcGIS/arcgis-for-developers) and create and manage issues, create branches, comment on existing content, and update the wiki.
 
 2. Installing the Developers Website
    + Install Node 8 from nodejs.org
@@ -59,7 +59,7 @@ What do your need to author DevLabs?
    + See [Installing the site](https://github.com/ArcGIS/arcgis-for-developers/wiki)
 
 3. Get on Slack channels:
-   + Runtime Team esri-runtime.slack.com
+   + Runtime Team __esri-runtime.slack.com__
    + #dev-site-general - Common channel for general discussion about the developers website.
    + #dev-site-status - Channel for automated status messages from github and Jenkins.
    + #dev-site-deployment - Channel for conversation and chat around specific deployments of the developers site and deployment related issues.
