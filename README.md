@@ -66,3 +66,50 @@ What do your need to author DevLabs?
 
 4. Working with github (our process)
    + [Editing the site](https://github.com/ArcGIS/arcgis-for-developers/wiki/Editing-the-Site-Locally)
+
+## DevLabs doc-a-thon 28-Sep-2017 Postmortem
+
+On Thursday 28-Sep-2017 and Friday 29-Sep-2017 we held a DevLabs doc-a-thon. The event was open to anyone within the Esri developers ecosystem interested in writing a DevLab or learning the process. We saw representatives from several company organizations:
+  + Runtime
+  + Web development
+  + Python
+  + Developer outreach
+  + Start-ups
+  + Developers website
+
+We had participation from several offices:
+  + Redlands, CA
+  + Portland, OR
+  + Edinburgh, Scotland
+  + Durango, CO
+
+With representation from SDKs including:
+  + Android
+  + iOS
+  + JavaScript
+  + .NET
+  + Python
+  + Qt
+
+The output from the two-day doc-a-thon includes **21** new DevLabs!
+
+### What went right
+
+Overall the doc-a-thon event was very successful. We met our goal getting new DevLabs across the SDKs that are most popular with our developer community and hit on the most important platform features.
+
+  + Getting everyone in the same place at the same time.
+  + Being able to work together and work out ideas in a collaborative environment.
+  + Presentation of DevLabs authoring process and style guide.
+  + Interactive question and answer.
+  + Having clear goals and focus.
+
+### What went wrong
+
+  + Some issues on some individual computers with the website build process.
+  + Not knowing who was attending in advance hampered communicating important pre-workshop information to participants. For a future event it would be better to use an event sign up system.
+  + Some specific labs were not worked out in advance, leaving it open to interpretation how to author the lab or the specific workflow to cover. For a future event any lab to be covered should have an outline before asking authors to work on it.
+  + With so much progress all at once, the follow up and lab checking process got bogged down.
+
+## What's next for DevLabs?
+
+The immediate challenge is reviewing the work completed and releasing the labs as they are approved and ready to release. Next, we plan to redesign the DevLabs presentation to accommodate the overflow of labs in the develop section and imbalance of labs offered between SDKs and data and design sections. Finally, we are hoping to continue authoring more labs to achieve parity across all SDK products and offer more appealing platform features.
