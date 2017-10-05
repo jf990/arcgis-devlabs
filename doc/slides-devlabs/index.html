@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>ArcGIS for Developers</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="assets/img/planet.png">
+          <h1>ArcGIS for Developers</h1>
+          <h1>DevLabs</h1>
+          <p>9:30 AM to 4:30 PM</p>
+        </section>
+				<section data-background="assets/img/expanding-scope.png">
+          <h1>DevLabs</h1>
+          <p>
+            9:30 AM – 10:30 AM – Introduction for new authors.
+            Authors already familiar with the process can skip this first hour.
+          </p>
+        </section>
+				<section data-background="assets/img/features-administration.png">
+          <p>Get access to the ArcGIS-for-Developers website https://github.com/ArcGIS/arcgis-for-developers</p>
+          <ul>
+            <li>Sign up for a free account on GitHub. Do not use esri in your username.</li>
+            <li>Add your full name and "Esri" as your company to your profile.</li>
+            <li>Email github_admin@esri.com with your GitHub username and ask to be added to the "ArcGIS" and "Esri" organizations.</li>
+          </ul>
+        </section>
+				<section data-background="assets/img/3d-earth-europe.png">
+          <h2>Installing the Developers Website</h2>
+          <ul>
+            <li>Install Node 8 from nodejs.org</li>
+            <li>Install on OS-X or Windows</li>
+          </ul>
+        </section>
+				<section data-background="assets/img/3d-city-sf-narrow.png">
+          <h2>Slack</h2>
+          <ul>
+            <li>Runtime Team esri-runtime.slack.com</li>
+            <li><b>#dev-site-general</b> - Common channel for general discussion about the developers website.</li>
+            <li><b>#dev-site-status</b> - Channel for automated status messages from github and Jenkins.</li>
+            <li><b>#dev-site-deployment</b> - Channel for conversation and chat around specific deployments of the developers site and deployment related issues.</li>
+          </ul>
+        </section>
+				<section data-background="assets/img/3d-earth-asia.png">
+          <h2>github</h2>
+          <ul>
+            <li>Create branches directly on ArcGIS/arcgis-for-developers</li>
+            <li>Typically off a feature branch (devlabs-qu2-preview)</li>
+            <li>Branch with your initials prefix (jf-devlabs)</li>
+            <li>Commits with issue #</li>
+            <li>Pull request back into feature branch</li>
+            <li>Tag reviewers</li>
+            <li>Review on preview branch</li>
+          </ul>
+        </section>
+        <section data-background="assets/img/planet.png">
+          <img src="assets/img/infrastructure.png">
+        </section>
+        <section data-background="assets/img/3d-earth-asia.png">
+          <h2>The Data, Design, Develop theme</h2>
+          <ul>
+            <li>Promote ArcGIS as a platform, realizing the full power of our product.</li>
+            <li>Demonstrate how data (maps, layers, features, items) separate from code</li>
+            <li>Demonstrate feature parity</li>
+          </ul>
+        </section>
+        <section data-background="assets/img/3d-earth-asia.png">
+          <h2>Website file structure for DevLabs</h2>
+          <ul>
+            <li>/src/labs/</li>
+            <li>/static/labs/</li>
+          </ul>
+        </section>
+        <section data-background="assets/img/3d-earth-asia.png">
+          <h2>Writing using markdown</h2>
+          <h2>Review of the DevLabs style guide</h2>
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+        controls: true,
+        progress: true,
+        transition: 'convex',
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
